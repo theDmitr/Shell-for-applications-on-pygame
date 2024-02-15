@@ -13,5 +13,5 @@ class Engine:
     def run(self):
         while True:
             self.__logic.input(self.__window)
-            self.__logic.render(self.__window)
             self.__logic.update(self.__window)
+            self.__logic.render(self.__window)
